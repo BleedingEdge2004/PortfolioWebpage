@@ -1,0 +1,277 @@
+/* Animation of Main section */
+body{
+    text-align:center;
+    overflow:auto;
+    background: linear-gradient(315deg, rgb(236, 0, 90) 3%, rgba(150,0,236,1) 38%, rgb(66, 124, 249) 68%, rgb(27, 250, 120) 98%);
+    animation: gradient 13s ease-in-out infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+
+/* keyframe  */
+@keyframes gradient {
+    0%{
+        background-position: 0% 0%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0% 0%;
+    }
+}
+/* Headings of Each section */
+.topic{
+    font-size:60px;
+    margin-bottom:0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* Header intro box */
+.intro-hero{
+    display : flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    height: 650px;
+    font-size: 40px;
+    padding:10px;
+    animation: none;
+    color: blanchedalmond;
+}
+/* hero section */
+.intro-box{
+    display: flex;
+    height:650px;
+    justify-content: space-around;
+    align-items:center;
+    font-size: 30px;
+}
+/* intro cards */
+#intro1{
+    background: linear-gradient(360deg, rgba(61,0,255,1), rgba(0,255,116,1));
+    color: rgba(2, 2, 2, 1);
+    font-family: fantasy;
+    font-size: 1em;
+}
+#intro2{
+    background: linear-gradient(360deg, rgba(143,0,255,1), rgba(255,0,112,1));
+    font-family: fantasy;
+    font-size: 1em;
+}
+/* Image css */
+.myPic{
+    border:10px double yellow;
+    border-radius:50%;
+    padding: 3%;
+    background: linear-gradient(360deg, rgb(255, 72, 0), rgb(251, 255, 0));
+}
+/* Pic and Brief Intro */
+.card{
+    width:27%;
+    border: 2px solid pink;
+    border-radius:10%;
+    padding:10px;
+}
+/* Qalification section */
+.intro-edu{
+    display: flex;
+    height:650px;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items:center;
+}
+/* Qualification cards */
+.edu-box{
+    width: 30%;
+    height: 400px;
+    border: 2px solid gray;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #f0f0f0;
+    transition:background-image 2s ease-in-out 0.2s ;
+}
+/* edu box look enhancement */
+#tenth{
+    background-image: url("/Portfolio/edu-card1.jpg");
+    font-size: 2rem;
+    font-family: sans-serif ;
+    border: .3rem solid black;
+}
+#twelth{
+    background-image: url("/Portfolio/edu-card2.jpg");
+    font-size: 2rem;
+    font-family: sans-serif ;
+    border: .3rem solid black;
+}
+#graduation{
+    background-image: url("/Portfolio/edu-card3.jpg");
+    font-size: 2rem;
+    font-family: sans-serif ;
+    border: .3rem solid black;
+}
+#tenth:hover{
+    background-image: linear-gradient(180deg, rgb(241, 20, 101), rgb(27, 252, 192));
+}
+#twelth:hover{
+    background-image: linear-gradient(180deg, rgb(21, 150, 60), rgb(27, 252, 192));
+}
+#graduation:hover{
+    background-image: linear-gradient(180deg, rgb(120, 8, 247), rgb(27, 252, 192));
+}
+/* Skills section */
+.intro-skill{
+    display: grid;
+    height:650px;
+    font-size: 20px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows:  300px 300px;
+    gap: 2em;
+    justify-content: center;
+}
+/* Skill cards */
+.skill-box{
+    height:240px;
+    padding: 0.6em;
+    border: 2px solid grey;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: fantasy;
+}
+/* Skill box look enhancement */
+#s1{
+    background: linear-gradient(30deg, rgba(78, 0, 255, 1), rgba(71, 246, 255, 1), rgba(255, 143, 198, 1), rgba(143,49,242,1));
+    overflow: auto;
+    background-size: 10% 50%;
+    background-attachment: fixed;
+    animation: gradient 15s ease-in-out infinite;
+}
+#s2{
+    background: linear-gradient(30deg, rgba(255, 33, 0, 1), rgba(0, 159, 255, 1), rgba(255, 0, 123, 1), rgba(0,4,255,1));
+    overflow: auto;
+    background-size: 10% 50%;
+    background-attachment: fixed;
+    animation: gradient 15s ease-in-out infinite;
+}
+#s3{
+    background: linear-gradient(30deg, rgba(216, 0, 255, 1), rgba(0, 55, 255, 1), rgba(0, 228, 255, 1), rgba(0,255,169,1));
+    overflow: auto;
+    background-size: 10% 50%;
+    background-attachment: fixed;
+    animation: gradient 15s ease-in-out infinite;
+}
+#s4{
+    background: linear-gradient(315deg, rgba(255, 0, 0, 1), rgb(123, 0, 255), rgba(186, 0, 255, 1), rgb(0, 255, 136));
+    overflow: auto;
+    background-size: 50% 10%;
+    background-attachment: fixed;
+    animation: gradient 15s ease-in-out infinite;
+}
+#s5{
+    background: linear-gradient(315deg, rgb(255, 30, 0), rgb(179, 255, 0), rgba(206, 255, 0, 1), rgb(255, 0, 234));
+    overflow: auto;
+    background-size: 50% 10%;
+    background-attachment: fixed;
+    animation: gradient 15s ease-in-out infinite;
+}
+#s6{
+    background: linear-gradient(315deg, rgba(255, 0, 100, 1), rgba(61, 0, 255, 1), rgba(0, 255, 116, 1), rgba(200,255,0,1));overflow: auto;
+    background-size: 50% 10%;
+    background-attachment: fixed;
+    animation: gradient 15s ease-in-out infinite;
+}
+/* Links Section */
+.intro-link{
+    height: 650px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+/* SVG icons */
+.icons{
+    width: 20em;
+    padding: 35px;
+    transition: transform 0.5s ease-in-out ;
+}
+#git:hover{
+    transform: scale(1.2);
+    fill: rgb(0, 255, 72);
+}
+#link:hover{
+    transform: scale(1.2);
+    fill: rgb(63, 28, 240);
+}
+#mail:hover{
+    transform: scale(1.2);
+    fill: rgb(239, 47, 47);
+}
+/* Contact Me Footer Section */
+footer article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+}
+footer {
+    color: #f0f0f0;
+    padding: 20px 40px;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.4);
+}
+
+footer article:hover {
+    background-color: rgb(41, 41, 41);
+    color: rgb(167, 198, 198);
+}
+footer button:hover{
+    background-color: darkgray;
+}
+footer article {
+    transition: background-color 2s ease-in-out 0.2s;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+/* ========== Responsive Design (Android Devices) ========== */
+@media screen and (max-width: 768px) 
+{
+    .topic {
+        font-size: 40px;
+    }
+    .intro-hero, .intro-box, .intro-edu {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    .card, .edu-box {
+        width: 90%;
+        margin: 10px 0;
+    }
+    .intro-skill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 1em;
+    }
+    .skill-box {
+        width: 90%;
+    }
+    .intro-link {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    .icons {
+        width: 12em;
+        padding: 20px;
+    }
+    .foot {
+        flex-direction: column;
+    }
+}
