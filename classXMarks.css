@@ -1,0 +1,43 @@
+/* Animation of Main section */
+body{
+    text-align:center;
+    overflow:auto;
+    background: linear-gradient(315deg, rgb(255, 120, 172) 3%, rgb(210, 133, 255) 38%, rgb(156, 187, 255) 68%, rgb(121, 255, 177) 98%);
+    animation: gradient 13s both infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+
+/* keyframe  */
+@keyframes gradient {
+    0%{
+        background-position: 0% 0%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0% 0%;
+    }
+}
+/* Header CSS */
+.head{
+    text-decoration: none;
+    text-align: center;
+}
+/* Info CSS */
+.details{
+    font-size: larger;
+    height: 8em;
+}
+/* Marks Table */
+.marksTable{
+    width: 100%;
+    margin-top: 0.6em;
+    font-size: larger;
+}
+.marksTable tr{
+    height: 2em;
+    font-weight: 600;
+}
