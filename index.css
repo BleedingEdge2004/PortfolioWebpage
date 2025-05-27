@@ -37,6 +37,11 @@ body{
     font-size: 40px;
     padding:10px;
     color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.intro-hero p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
 }
 /* hero section */
 .intro-box{
@@ -44,26 +49,45 @@ body{
     height:650px;
     justify-content: space-around;
     align-items:center;
-    font-size: 30px;
+    font-size: 1.8em;
+    font-family: fantasy;
 }
 /* intro cards */
 #intro1{
     background: linear-gradient(360deg, rgba(61,0,255,1), rgba(0,255,116,1));
-    color: rgba(2, 2, 2, 1);
-    font-family: fantasy;
     font-size: 1em;
 }
 #intro2{
     background: linear-gradient(360deg, rgba(143,0,255,1), rgba(255,0,112,1));
-    font-family: fantasy;
     font-size: 1em;
 }
 /* Image css */
 .myPic{
-    border:10px double rgb(255, 74, 74);
+    border:10px double ;
     border-radius:50%;
     padding: 3%;
     background: linear-gradient(360deg, rgb(255, 135, 87), rgb(252, 255, 104));
+}
+/* Experience Section CSS */
+.intro-exp{
+    height:37.5em;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.intro-exp section{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 26em;
+    width: 22%;
+    border:2px solid white;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    flex-flow: column;
+    background: linear-gradient(rgb(97, 223, 255),rgb(36,160,255));
+}
+.intro-exp section:not(h2,h3){
+    font-size: large;
 }
 /* Pic and Brief Intro */
 .card{
@@ -92,6 +116,7 @@ body{
     flex-direction: column;
     color: #090909;
     transition: transform 0.5s ease-in-out;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .edu-box a{
     text-decoration: none;
@@ -100,19 +125,16 @@ body{
 /* edu box look enhancement */
 #tenth{
     font-size: 2rem;
-    font-family: sans-serif ;
     border: .3rem solid black;
     background: linear-gradient(165deg,rgb(144, 185, 255),rgb(246, 250, 141));
 }
 #twelth{
     font-size: 2rem;
-    font-family: sans-serif ;
     border: .3rem solid black;
     background: linear-gradient(165deg,rgb(246, 178, 255),rgb(191, 151, 255));
 }
 #graduation{
     font-size: 2rem;
-    font-family: sans-serif ;
     border: .3rem solid black;
     background: linear-gradient(165deg,rgb(183, 254, 155),rgb(163, 229, 255));
 }
@@ -130,7 +152,7 @@ body{
 }
 /* Skills section */
 .intro-skill{
-    display: grid;
+    display: grid ;
     height:650px;
     font-size: 20px;
     grid-template-columns: 300px 300px 300px;
@@ -147,7 +169,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: x-large;
+    font-size: larger;
     font-family: fantasy;
 }
 /* Skill box look enhancement */
@@ -170,7 +192,7 @@ body{
     background-attachment: fixed;
 }
 #s4{
-    background: linear-gradient(315deg, rgba(255, 0, 0, 1), rgb(123, 0, 255), rgba(186, 0, 255, 1), rgb(0, 255, 136));
+    background: linear-gradient(315deg, rgba(255, 0, 0, 1), rgba(123, 0, 255,1),rgba(0, 255, 136,1), rgba(186, 0, 255, 1) );
     overflow: auto;
     background-size: 50% 10%;
     background-attachment: fixed;
