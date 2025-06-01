@@ -33,16 +33,16 @@ This portfolio is designed to:
 
 ## 📁 Project Structure
 
-PortfolioWebpage/ 
-├── index.html               # Main landing page 
-├──Readme.md               # Documentation
-├── styles/ 
-│   └── index.css           # Main CSS file 
-├── images/ 
-│   └── (image assets)   # Portfolio images  
-├── pages/ 
-│   └── (additional HTML files )
-
+PortfolioWebpage/  
+├── index.html               # Main landing page   
+├──Readme.md               # Documentation  
+├── styles/   
+│   └── index.css           # Main CSS file   
+├── images/   
+│   └── (image assets)   # Portfolio images    
+├── pages/   
+│   └── (additional HTML files )  
+  
 ---
 
 ## 🛠 How to Use / Contribute
