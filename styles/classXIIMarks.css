@@ -28,7 +28,7 @@ body{
 }
 /* Info CSS */
 .details{
-    font-size: larger;
+    font-size: x-large;
     height: 8em;
 }
 /* Marks Table */
@@ -36,6 +36,7 @@ body{
     width: 100%;
     margin-top: 0.6em;
     font-size: larger;
+    background: linear-gradient(wheat,rgb(185, 184, 184));
 }
 .marksTable tr{
     height: 2em;

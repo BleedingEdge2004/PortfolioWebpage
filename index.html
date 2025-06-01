@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="/Portfolio/styles/index.css" />
+    <link rel="stylesheet" href="../Portfolio/styles/index.css" />
   </head>
   <body>
     <main>
@@ -12,16 +12,18 @@
         <article class="intro-hero">
           <big
         ><b>Hi, I'm </b></br>
-        <b>Sachin Kumar Yadav</b></big>
+        <b>Sachin Kumar Yadav</b>
       </br>
         <b>I'm learning to be a Full Stack Developer</b>
-      </big>
+      </big><br>
       <p>I’m a student who enjoys deep thinking and problem-solving, especially when it comes to building creative solutions through code. I thrive in collaborative environments, love sharing ideas, and maintain a friendly, approachable nature. Always eager to learn new technologies and tools, I’m on a journey to become a proficient MERN Stack developer and contribute meaningfully to dynamic development teams.</p>
         </article>
       </header>
       <p class="topic">About Me</p>
       <article class="intro-box">
-        <img class="myPic" src="../Portfolio/images/Pic.jpg" height="250" alt="pic" />
+        <a href="#" >
+          <img class="myPic" src="../Portfolio/images/Pic.jpg" height="250" alt="pic" />
+        </a>
         <section class="card" id="intro1">
           With foundations in team collaboration and effective communication, I
           involve and guide individuals towards their goals. My background in
@@ -57,15 +59,15 @@
           <h3>Feature Implementation</h3> Added core functionalities such as user login/register, dynamic dashboards, cart/favorite management, and admin panels.
           <h3>Deployment</h3> Deployed applications on platforms like Render (backend) and Vercel (frontend), ensuring smooth CI/CD workflows and live accessibility.
         </section>
-          <a href="/Portfolio/pages/certificate.html" target="_blank">
-            <img src="/Portfolio/images/C2.jpg" height="400px">
+          <a href="C:\Users\acer\Desktop\WebDev(MERN)\Portfolio\pages\certificate.html" target="_blank">
+            <img src="../Portfolio/images/C2.jpg" alt="certificate" height="400px">
           </a>
       </article>
       <hr />
       <p class="topic">Educational Qualifications</p>
       <article class="intro-edu">
           <section class="edu-box" id="tenth" >
-            <u style="color:black">
+            <u>
               <b ><i>Secondary School Qualification</b></i>
           </u>
           <br />
@@ -73,10 +75,10 @@
             Start : May-2019 <br />
             End : June 2020<br />
             Passed with 78%
-            <a href="/Portfolio/pages/classXmarks.html" target="_blank">View Marks</a>
+            <a href="../Portfolio/pages/classXmarks.html" target="_blank">View Marks</a>
         </section>
         <section class="edu-box" id="twelth">
-          <u style="color:black">
+          <u >
             <i>
               <b>Senior Secondary School Qualification</b>
             </i>
@@ -86,12 +88,12 @@
             Start : May-2021 <br />
             End : June 2022<br />
             Passed with 72%
-            <a href="/Portfolio/pages/classXIImarks.html" target="_blank"
+            <a href="../Portfolio/pages/classXIImarks.html" target="_blank"
             >View Marks</a
             >
         </section>
         <section class="edu-box" id="graduation">
-          <u style="color:black">
+          <u >
             <i>
               <b>Graduation Qualification</b>
             </i>
@@ -108,20 +110,37 @@
       <p class="topic">Skills</p>
       <article class="intro-skill">
           <div class="skill-box" id="s1">
-          Good Communication Skills</div>
+            <span>
+            Good Communication Skills
+          </span>
+          <p>Good Listener<br>Good Inetraction<br>Friendly Nature</p>
+          </div>
           <div class="skill-box" id="s2">
+            <span>
             Learned C & C++ Programming
+            </span>
+            <p>Arrays,Linked List<br>OOPs Concepts<br>File Handling</p>
           </div>
           <div class="skill-box" id="s3">
+            <span>
             Learned Python Programming Basics
+            </span>
+            <p>Data Types<br>List, Dictionary, String Operation</p>
           </div>
           <div class="skill-box" id="s4">
-            Worked on HTML, CSS, & JS Frameworks
+            <span>
+              Worked on HTML, CSS, & JS Frameworks
+            </span>
+            <p>HTML5 Tags<br>CSS Animation, Transition<br>JS Objects, DOM Manipulaton</p>
           </div>
-            <div class="skill-box" id="s5">
-              Learned MySQL Database Basics
+            <div class="skill-box" id="s5"><span>
+              Learned MySQL Database Basics</span>
+              <p>Data Types(CHAR,VARCHAR)<br>DDL & DML Commands<br>SQL Joins</p>
             </div>
-            <div class="skill-box" id="s6">Problem Solving</div>
+            <div class="skill-box" id="s6"><span>
+              Problem Solving
+            </span>
+            <p>Known DSA<br>Recursion and Brute Force Algorithms<br></p></div>
           </div>
       </article>
       <hr />
@@ -130,7 +149,7 @@
         <section class="pr">
           <h2>Sales Dashboard</h2>
           <a href="https://vercel.com/bleedingedge2004s-projects/full-stack-project-1/" target="_blank">
-            <img src="/Portfolio/images/Sales.jpg" width="400px">
+            <img src="../Portfolio/images/Sales.jpg" width="400px">
           </a>
           <p>
             I built a Sales Performance Dashboard Web Application using the MERN Stack (MongoDB, Express.js, React.js, Node.js). The dashboard provides dynamic visual insights through interactive charts and KPIs. It supports user login, filtering by date, region, product, and salesperson, and includes email alerts for sales spikes or dips.The application features a responsive UI, secure authentication, and real-time updates. Admins can monitor performance effectively with real-time data. The frontend is deployed on Vercel, and the backend runs on Render, ensuring fast, scalable performance.<br>
@@ -140,7 +159,7 @@
         <section class="pr">
           <h2>Online Medical Store (HealthMart)</h2>
           <a href="https://codeshape-it-solutions-ufze.vercel.app/" target="_blank">
-            <img src="/Portfolio/images/Homepage1.jpg" width="400px">
+            <img src="../Portfolio/images/Homepage1.jpg" width="400px">
           </a>
           <p>I developed a Full Stack Online Medical Store Web Application using the MERN Stack (MongoDB, Express.js, React.js, Node.js). The platform supports both admin and user functionalities. Admins can perform full CRUD operations on products, manage inventory, and oversee users. Users can register/login, browse products, add items to cart or favorites, and place orders, with access to their complete order history. The application features a responsive UI, secure authentication, and real-time updates. It is deployed on Vercel (frontend) and Render (backend), providing a smooth and scalable user experience. This project strengthened my skills in full-stack development and deployment.</p>
         </section>
