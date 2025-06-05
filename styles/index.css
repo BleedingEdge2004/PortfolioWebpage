@@ -8,9 +8,8 @@ body{
     background-attachment: fixed;
 }
 
-
 /* keyframe  */
-@keyframes gradient {
+@keyframes radient {
     0%{
         background-position: 0% 0%;
     }
@@ -29,7 +28,9 @@ body{
     margin-bottom:0px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-/* Header intro box */
+/* --------------------------------NEW Section--------------------------------------------- */
+
+/* Header Hero Section intro box */
 .intro-hero{
     display : flex;
     justify-content: center;
@@ -41,18 +42,21 @@ body{
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/* My Intro text Name,Aspiration etc */
 .intro-hero  big{
     text-shadow: 5px 0px 10px rgb(154, 45, 255), -4px -7px 10px rgb(0, 47, 255);
     color: cyan;
 }
+/* Small intro on me */
 .intro-hero p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 26px;
     text-shadow: 2px 3px 5px white, 3px 2px 5px rgb(0, 89, 255);
     color:rgb(0, 8, 156);
 }
+/* --------------------------------NEW Section--------------------------------------------- */
 
-/* hero section */
+/* About Me section */
 .intro-box{
     display: flex;
     height:650px;
@@ -71,11 +75,12 @@ body{
     border: 3px transparent;
     padding: 15px;
 }
-/* intro cards */
+/* intro card 1 */
 #intro1{
     margin-left: 2em;
     background: linear-gradient(360deg, rgba(61,0,255,0.7), rgba(0,255,116,0.7));
 }
+/* intro card 2 */
 #intro2{
     background: linear-gradient(360deg, rgba(143,0,255,0.7), rgba(255,0,112,0.7));
 }
@@ -93,6 +98,7 @@ body{
     box-shadow: -9px -7px 6px rgb(151, 150, 148), 9px 8px 6px rgba(205, 205, 202, 0.696) ;
 }
 
+/* --------------------------------NEW Section--------------------------------------------- */
 /* Experience Section CSS */
 .intro-exp{
     height:37.5em;
@@ -100,6 +106,7 @@ body{
     justify-content:space-evenly;
     align-items: center;
 }
+/* Certificate Image */
 .intro-exp img{
     border: 3px transparent;
     border-radius:20px ;
@@ -109,6 +116,7 @@ body{
     box-shadow: -7px -8px 5px rgb(255, 60, 132), 7px 8px 5px rgb(90, 2, 243),-7px 8px 5px rgb(255,60,132),7px -8px 5px rgb(90,2,243) ;
     transform: scale(1.05);
 }
+/* Experience Section Each Cards */
 .intro-exp section{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 26em;
@@ -127,9 +135,11 @@ body{
     transform: scale(1.05);
     background: linear-gradient(rgb(36, 116, 255),rgba(97, 223, 255, 0.888));
 }
+/* Text which are not Headings */
 .intro-exp section:not(h2,h3){
     font-size: large;
 }
+/* --------------------------------NEW Section--------------------------------------------- */
 
 /* Qalification section */
 .intro-edu{
@@ -139,7 +149,7 @@ body{
     font-size: 20px;
     align-items:center;
 }
-/* Qualification cards */
+/* Qualification Cards */
 .edu-box{
     width: 28%;
     height: 15em;
@@ -154,6 +164,7 @@ body{
     box-shadow: 8px 10px 5px black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+/* View Marks Buttons */
 .edu-box a{
     text-decoration: none;
     color: maroon;
@@ -199,6 +210,8 @@ body{
     transform: scale(1.03);
     box-shadow: 8px 10px 5px rgb(173, 31, 12);
 }
+/* --------------------------------NEW Section--------------------------------------------- */
+
 /* Skills section */
 .intro-skill{
     display: grid ;
@@ -222,16 +235,19 @@ body{
     font-family: fantasy;
     transition: all 0.6s ease-in-out;
 }
+/* Skill Cards Headings */
 .skill-box span{
     position: relative;
     top: 50px;
     transition: all 0.3s ease-in;
 }
+/* Skill Cards Content */
 .skill-box p{
     font-size: 20px;
     position: relative;
     color: transparent;
 }
+/* Skill Cards CSS Enhancement */
 .skill-box:hover p{
     color: black;
     transition: all 0.6s ease-in;
@@ -243,7 +259,7 @@ body{
     position: relative;
     top: 0px;
 }
-/* Skill box look enhancement */
+/* Skill box Background and Transitions*/
 #s1{
     background: linear-gradient(30deg, rgba(78, 0, 255, 1), rgba(71, 246, 255, 1), rgba(255, 143, 198, 1), rgba(143,49,242,1));
     overflow: auto;
@@ -275,10 +291,13 @@ body{
     background-attachment: fixed;
 }
 #s6{
-    background: linear-gradient(315deg, rgba(255, 0, 100, 1), rgba(61, 0, 255, 1), rgba(0, 255, 116, 1), rgba(200,255,0,1));overflow: auto;
+    background: linear-gradient(315deg, rgba(255, 0, 100, 1), rgba(61, 0, 255, 1), rgba(0, 255, 116, 1), rgba(200,255,0,1));
+    overflow: auto;
     background-size: 50% 10%;
     background-attachment: fixed;
 }
+/* --------------------------------NEW Section--------------------------------------------- */
+/* Project Section */
 /* Projects Box CSS */
 .intro-project{
     height:650px;
@@ -289,6 +308,7 @@ body{
     gap: 0.5em;
     color: lightcyan;
 }
+/* Project 1 & 2 Box */
 .pr{
     width: 45%;
     display: inline-flex;
@@ -298,6 +318,7 @@ body{
     border: 3px solid;
     border-radius: 15px 50px 15px 50px ;
 }
+/* Project 1 & 2 Images */
 .intro-project img{
     border: 2px solid transparent ;
     border-radius: 10px;
@@ -307,17 +328,20 @@ body{
     transform: scale(1.03);
     box-shadow: 6px 7px 5px white;
 }
+/* --------------------------------NEW Section--------------------------------------------- */
+
 /* Links Section */
 .intro-link{
     height: 650px;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 /* SVG icons */
 .icons{
-    width: 20em;
-    padding: 35px;
+    width: 87%;
+    display: flex;
+    align-items: center;
     transition: transform 0.5s ease-in-out ;
 }
 #git:hover{
@@ -332,69 +356,84 @@ body{
     transform: scale(1.2);
     fill: rgb(239, 47, 47);
 }
+/* --------------------------------NEW Section--------------------------------------------- */
+
 /* Contact Me Footer Section */
 footer article{
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-footer {
-    /* color: #f0f0f0; */
-    padding: 20px 40px;
-    box-shadow: 0 -2px 10px rgba(0,0,0,0.4);
-}
-
-footer button:hover{
-    background-color: darkgray;
-}
-footer article {
-    transition: all 2s ease-in-out 0.2s;
-    flex-direction: column;
-    text-align: center;
-    gap: 10px;
-}
+/* Footer Form */
 footer .footer-form{
     display:flex;
     flex-direction:column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
+/* Form input bars  */
+.footer-form label{
+    height: 10px;
+}
+.footer-form input{
+    border : 2px solid black;
+    background-color: rgb(113, 110, 110);
+}
+.footer-form input:hover{
+    border:2px transparent;
+    border-radius: 3px;
+    color:rgb(253, 253, 253);
+    background-color: rgb(67, 67, 67);
+    box-shadow: 1px 2px 3px white,-1px -2px 3px grey,-1px 2px 3px white,1px -2px 3px grey;
+}
+/* Form Submit Button */
+footer button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.3s ease-in ;
+}
+footer button:hover{
+    border: 1px transparent;
+    background-color: darkgray;
+    color:lightcyan;
+    font-style: bold;
+    box-shadow: 3px 4px 5px black, -3px -4px 5px gray, -3px 4px 5px black,3px -4px 5px gray;
+}
+
 /* ========== Responsive Design (Android Devices) ========== */
-@media screen and (max-width: 768px) 
-{
-    .topic {
-        font-size: 40px;
+/* For Tablets Viewport */
+@media (min-width : 481px) and (max-width : 768px) {
+    /* Headings of Each Section Responsiveness */
+    .topic{
+    font-size: 40px;
+    text-shadow: 5px 5px 9px rgb(177, 118, 254), 5px 5px 9px rgb(123, 236, 248) ;
+    margin-bottom:25px ;
     }
-    .intro-hero, .intro-box, .intro-edu {
+    /* Header Hero Section intro box */
+    .intro-hero big{
+        font-size: 25px;
+    }
+    /* About Me section */
+    .intro-box, .intro-exp, .intro-edu, .intro-project, .intro-link {
         flex-direction: column;
-        height: auto;
-        padding: 20px;
+        justify-content: space-around;
+        font-size: 1.3em;
+        height: 780px;
+        gap:0.8em;
     }
-    .card, .edu-box {
-        width: 90%;
-        margin: 10px 0;
+    /* Common Intro Cards */
+    .intro-box .card{
+        width: 60%;
     }
-    .intro-skill {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-        gap: 1em;
+    #intro1{
+        margin-left:0px;
     }
-    .skill-box {
-        width: 90%;
+    .myPic{
+        border:6px;
+        border-radius:20px;
     }
-    .intro-link {
-        flex-direction: column;
-        height: auto;
-        padding: 20px;
-    }
-    .icons {
-        width: 12em;
-        padding: 20px;
-    }
-    .foot {
-        flex-direction: column;
-    }
+    
 }
