@@ -62,9 +62,10 @@ body{
     height:650px;
     justify-content: space-evenly;
     align-items:center;
-    font-size: 1.7em;
+    font-size: 1.5em;
+    font-weight: 600;
     gap: 1.5em;
-    font-family: fantasy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Common Intro Cards */
@@ -134,6 +135,10 @@ body{
     box-shadow: -7px -8px 5px rgb(24, 51, 255), 7px 8px 5px white,-7px 8px 5px rgb(24, 51, 255), 7px -8px 5px white ;
     transform: scale(1.05);
     background: linear-gradient(rgb(36, 116, 255),rgba(97, 223, 255, 0.888));
+}
+.intro-exp h2,h3{
+    line-height: 24px;
+    font-weight: 600;
 }
 /* Text which are not Headings */
 .intro-exp section:not(h2,h3){
@@ -403,9 +408,8 @@ footer button:hover{
     box-shadow: 3px 4px 5px black, -3px -4px 5px gray, -3px 4px 5px black,3px -4px 5px gray;
 }
 
-/* ========== Responsive Design (Android Devices) ========== */
-/* For Tablets Viewport */
-@media (min-width : 481px) and (max-width : 768px) {
+/* ========== Responsive Design (Tablet Devices) ========== */
+@media (min-width : 768px) and (max-width : 1100px) {
     /* Headings of Each Section Responsiveness */
     .topic{
     font-size: 40px;
@@ -414,26 +418,158 @@ footer button:hover{
     }
     /* Header Hero Section intro box */
     .intro-hero big{
-        font-size: 25px;
+        font-size: 30px;
     }
     /* About Me section */
-    .intro-box, .intro-exp, .intro-edu, .intro-project, .intro-link {
+    .intro-box, .intro-exp, .intro-edu, .intro-project, .intro-link, footer article {
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
         font-size: 1.3em;
-        height: 780px;
+        height: fit-content;
         gap:0.8em;
     }
     /* Common Intro Cards */
     .intro-box .card{
+        display: flex;
+        align-items: center;
         width: 60%;
+        height: 360px;
+        font-weight: 700;
     }
     #intro1{
         margin-left:0px;
     }
-    .myPic{
-        border:6px;
-        border-radius:20px;
+    #intro2{
+        margin-top: 0px;
     }
-    
+    .myPic{
+        border:5px;
+        border-radius:20px;
+        height: 200px;
+    }
+    /* Experience Section */
+    .intro-exp{
+        height: fit-content;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .intro-exp section{
+        width: 40%;
+        font-weight: 500;
+        margin:0px 0px 10px 0px;
+        font-size: smaller;
+    }
+    .intro-exp h2,h3{
+        font-weight: 700;
+    }
+    .intro-exp img{
+        height: 450px;
+    }
+    /* Qualification Section */
+    .edu-box{
+        width:65%;
+        font-size: 50px;
+        margin: 10px;
+        line-height: 40px;
+    }
+    .edu-box a{
+        margin-top: 25px;
+    }
+    /* SKills Section */
+    .intro-skill{
+        display: grid;
+        height: fit-content;
+        grid-template-columns: repeat(auto-fit,300px);
+    }
+    /* Projects Section */
+    .pr{
+        width: 60%;
+    }
+}
+/* ========== Responsive Design (Android Devices) ========== */
+@media (max-width : 767px)  {
+    /* Headings of Each Section Responsiveness */
+    .topic{
+    font-size: 38px;
+    text-shadow: 5px 5px 9px rgb(177, 118, 254), 5px 5px 9px rgb(123, 236, 248) ;
+    margin-bottom:25px ;
+    }
+    /* Header Hero Section intro box */
+    .intro-hero big{
+        font-size: 27px;
+    }
+    /* About Me section */
+    .intro-box, .intro-exp, .intro-edu, .intro-project, .intro-link, footer article {
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.1em;
+        height: fit-content;
+        gap:0.8em;
+    }
+    /* Common Intro Cards */
+    .intro-box .card{
+        display: flex;
+        align-items: center;
+        width: 60%;
+        height: 360px;
+        font-weight: 700;
+    }
+    #intro1{
+        height: fit-content;
+        margin:1em 0px 0px 0px;
+    }
+    #intro2{
+        margin-top: 0px;
+    }
+    .myPic{
+        border:5px;
+        border-radius:20px;
+        height: 200px;
+    }
+    /* Experience Section */
+    .intro-exp{
+        height: fit-content;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .intro-exp section{
+        height: fit-content;
+        width: 40%;
+        font-weight: 400;
+        margin:0px;
+        padding: 15px;
+    }
+    .intro-exp h2,h3{
+        font-weight: 600;
+    }
+    .intro-exp img{
+        height: 450px;
+    }
+    /* Qualification Section */
+    .edu-box{
+        width:60%;
+        height: fit-content;
+        font-size: 50px;
+        padding: 15px;
+        margin: 10px;
+        line-height: 40px;
+    }
+    .edu-box a{
+        margin-top: 25px;
+    }
+    /* SKills Section */
+    .intro-skill{
+        display: grid;
+        height: fit-content;
+        grid-template-columns: repeat(1,300px);
+    }
+    /* Projects Section */
+    .pr{
+        width: 60%;
+        height: fit-content;
+    }
+    .pr img{
+        width: 80%;
+    }
 }
