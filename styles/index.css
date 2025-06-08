@@ -496,6 +496,9 @@ footer button:hover{
     margin-bottom:25px ;
     }
     /* Header Hero Section intro box */
+    .intro-hero {
+        margin-top:1.2em;
+    }
     .intro-hero big{
         font-size: 27px;
     }
@@ -571,5 +574,9 @@ footer button:hover{
     }
     .pr img{
         width: 80%;
+    }
+    .icons{
+        margin-left: 1em;
+        align-items: center;
     }
 }
