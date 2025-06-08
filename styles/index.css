@@ -9,7 +9,7 @@ body{
 }
 
 /* keyframe  */
-@keyframes radient {
+@keyframes gradient {
     0%{
         background-position: 0% 0%;
     }
@@ -535,7 +535,7 @@ footer button:hover{
     }
     .intro-exp section{
         height: fit-content;
-        width: 40%;
+        width: 80%;
         font-weight: 400;
         margin:0px;
         padding: 15px;
@@ -548,7 +548,7 @@ footer button:hover{
     }
     /* Qualification Section */
     .edu-box{
-        width:60%;
+        width:70%;
         height: fit-content;
         font-size: 50px;
         padding: 15px;
@@ -566,7 +566,7 @@ footer button:hover{
     }
     /* Projects Section */
     .pr{
-        width: 60%;
+        width: 80%;
         height: fit-content;
     }
     .pr img{

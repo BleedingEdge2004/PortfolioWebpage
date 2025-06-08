@@ -43,3 +43,18 @@ body{
     height: 2em;
     font-weight: 600;
 }
+/* ========== Responsive Design (Android Devices) ========== */
+@media (max-width : 767px)  {
+    .details{
+        font-size: medium;
+        height: fit-content;
+    }
+    .marksTable{
+        margin-top: 0.4em;
+        font-size: medium;
+    }
+    .marksTable tr{
+        height: 1.7em;
+        font-weight: 500;
+    }
+}
