@@ -1,8 +1,9 @@
 /* Animation of Main section */
 body{
+    scroll-behavior:smooth ;
     text-align:center;
     overflow:auto;
-    background: linear-gradient(315deg, rgb(255, 120, 172) 3%, rgb(210, 133, 255) 38%, rgb(156, 187, 255) 68%, rgb(121, 255, 177) 98%);
+    background: linear-gradient(315deg, rgb(54, 15, 137) 3%, rgb(87, 17, 186) 38%, rgb(0, 2, 108) 68%, rgb(14, 7, 109) 88%);
     animation: gradient 13s both infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
@@ -23,8 +24,8 @@ body{
 /* Headings of Each section */
 .topic{
     font-size:60px;
-    color: rgb(112, 8, 112);
-    text-shadow: 8px 7px 9px rgb(177, 118, 254), 7px 8px 9px rgb(123, 236, 248) ;
+    color: rgb(126, 251, 207);
+    text-shadow: 4px 4px 5px rgb(6, 1, 13), -4px -4px 5px rgb(168, 170, 170), -4px 4px 5px rgb(9, 10, 10), 4px -4px 5px rgb(241, 243, 243);
     margin-bottom:0px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -44,15 +45,16 @@ body{
 }
 /* My Intro text Name,Aspiration etc */
 .intro-hero  big{
-    text-shadow: 5px 0px 10px rgb(154, 45, 255), -4px -7px 10px rgb(0, 47, 255);
-    color: cyan;
+    text-shadow: 4px 4px 5px rgb(157, 0, 255), -4px -4px 5px rgb(157, 0, 255), -4px 4px 5px rgb(157, 0, 255), 4px -4px 5px rgb(157, 0, 255);
+    color: rgb(255, 255, 255);
+    
 }
 /* Small intro on me */
 .intro-hero p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 26px;
-    text-shadow: 2px 3px 5px white, 3px 2px 5px rgb(0, 89, 255);
-    color:rgb(0, 8, 156);
+    text-shadow: 2px 3px 2px rgb(18, 36, 199), -2px -3px 2px rgb(0, 89, 255), -2px 3px 2px rgb(0, 89, 255), 2px -3px 2px rgb(0, 89, 255);
+    color:rgb(249, 249, 250);
 }
 /* --------------------------------NEW Section--------------------------------------------- */
 
@@ -72,31 +74,27 @@ body{
 .intro-box .card{
     width:27%;
     border-radius:20px;
-    box-shadow: 8px 7px 5px rgb(138, 137, 135), -8px -7px 5px black;
+    box-shadow: 5px 6px 5px rgb(255, 255, 255), -5px -6px 5px rgb(253, 253, 253), -5px 6px 5px rgb(253, 253, 253), 5px -6px 5px rgb(253, 253, 253);
     border: 3px transparent;
+    background-color: darkblue;
+    color: whitesmoke;
     padding: 15px;
 }
 /* intro card 1 */
 #intro1{
     margin-left: 2em;
-    background: linear-gradient(360deg, rgba(61,0,255,0.7), rgba(0,255,116,0.7));
-}
-/* intro card 2 */
-#intro2{
-    background: linear-gradient(360deg, rgba(143,0,255,0.7), rgba(255,0,112,0.7));
 }
 /* Image css */
 .myPic{
-    border:10px  ;
+    box-sizing: border-box;
+    border:2px solid white;
     border-radius:30px;
-    padding: 30px;
-    background: linear-gradient(360deg, rgb(255, 135, 87), rgb(252, 255, 104));
-    box-shadow: -9px 7px 6px rgb(249, 198, 96), -9px 8px 6px rgb(248, 197, 80) ;
     transition: all 0.3s ease-in-out;
 }
 /* Hover Effects */
 .myPic:hover{
-    box-shadow: -9px -7px 6px rgb(151, 150, 148), 9px 8px 6px rgba(205, 205, 202, 0.696) ;
+    box-shadow: -5px -5px 4px rgb(0, 234, 255), 5px 5px 4px rgb(0, 234, 255), 5px -5px 4px rgb(0, 234, 255), -5px 5px 4px rgb(0, 234, 255)   ;
+    border:2px solid white;
 }
 
 /* --------------------------------NEW Section--------------------------------------------- */
@@ -114,7 +112,7 @@ body{
     transition:all 0.3s ease-in-out;
 }
 .intro-exp img:hover{
-    box-shadow: -7px -8px 5px rgb(255, 60, 132), 7px 8px 5px rgb(90, 2, 243),-7px 8px 5px rgb(255,60,132),7px -8px 5px rgb(90,2,243) ;
+    box-shadow: -4px -5px 5px rgb(255, 60, 132), 4px 5px 5px rgb(90, 2, 243),-4px 5px 5px rgb(255,60,132),4px -5px 5px rgb(90,2,243) ;
     transform: scale(1.05);
 }
 /* Experience Section Each Cards */
@@ -128,13 +126,13 @@ body{
     display:flex;
     justify-content: center;
     flex-flow: column;
-    background: linear-gradient(rgb(97, 223, 255),rgb(36,160,255));
+    color: whitesmoke;
+    background: linear-gradient(rgb(24, 51, 255),rgb(51,34,255));
     transition: all 0.3s ease-in-out;
 }
 .intro-exp section:hover{
-    box-shadow: -7px -8px 5px rgb(24, 51, 255), 7px 8px 5px white,-7px 8px 5px rgb(24, 51, 255), 7px -8px 5px white ;
+    box-shadow: -4px -3px 5px rgb(255, 255, 255), 4px 3px 5px rgb(255, 255, 255),-4px 3px 5px rgb(255, 255, 255), 4px -3px 5px white ;
     transform: scale(1.05);
-    background: linear-gradient(rgb(36, 116, 255),rgba(97, 223, 255, 0.888));
 }
 .intro-exp h2,h3{
     line-height: 24px;
@@ -164,56 +162,52 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #090909;
+    color:whitesmoke;
     transition: all 0.5s ease-in-out;
     box-shadow: 8px 10px 5px black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* View Marks Buttons */
 .edu-box a{
+    box-sizing: border-box;
     text-decoration: none;
-    color: maroon;
-    background-color:white;
+    color: whitesmoke;
     margin-top: 10px;
     padding: 10px;
-    border: 3px solid rgb(129, 5, 13);
+    border: 3px solid whitesmoke;
     border-radius: 10px;
     transition: all 0.3s ease-in;
-    box-shadow: -2px 2px 5px gray, -2px -2px 5px gray,2px -2px 5px gray, 2px 2px 5px gray ;
 }
 .edu-box a:hover{
-    background-color: maroon;
-    color: white;
-    text-shadow: 5px 3px 1px black;
-    box-shadow: -4px 4px 5px lightcoral, -4px -4px 5px lightcoral,4px -4px 5px lightcoral, 4px 4px 5px lightcoral ;
+    color: cyan;
+    border: 3px transparent;
+    text-shadow: 5px 3px 4px black;
+    box-shadow: -4px 4px 5px cyan, -4px -4px 5px cyan,4px -4px 5px cyan, 4px 4px 5px cyan ;
 }
 /* edu box look enhancement */
 #tenth{
     font-size: 2rem;
-    background: linear-gradient(165deg,rgb(133, 255, 119),rgb(253, 253, 253));
+    background: linear-gradient(165deg,rgb(106, 0, 255),rgb(0, 15, 184));
 }
 #twelth{
     font-size: 2rem;
-    background: linear-gradient(165deg,rgb(252, 252, 156),rgb(252, 252, 252));
+    background: linear-gradient(165deg,rgb(106, 0, 255),rgb(0, 15, 184));
 }
 #graduation{
     font-size: 2rem;
-    background: linear-gradient(165deg,rgb(254, 155, 155),rgb(246, 249, 250));
+    background: linear-gradient(165deg,rgb(106, 0, 255),rgb(0, 15, 184));
 }
 #tenth:hover{
-    background: linear-gradient(165deg,rgb(0, 255, 0),rgb(255, 255, 255));
     transform: scale(1.03);
-    box-shadow: 8px 10px 5px rgb(31, 173, 12);
+    box-shadow: 8px 10px 5px cyan;
 }
 #twelth:hover{
-    background: linear-gradient(165deg,rgb(246, 255, 0),rgb(255, 255, 255));
     transform: scale(1.03);
-    box-shadow: 8px 10px 5px rgb(142, 168, 11);
+    box-shadow: 8px 10px 5px cyan;
 }
 #graduation:hover{
-    background: linear-gradient(165deg,rgb(255, 0, 47),rgb(255, 255, 255));
     transform: scale(1.03);
-    box-shadow: 8px 10px 5px rgb(173, 31, 12);
+    box-shadow: 8px 10px 5px cyan;
 }
 /* --------------------------------NEW Section--------------------------------------------- */
 
@@ -239,6 +233,12 @@ body{
     font-size: xx-large;
     font-family: fantasy;
     transition: all 0.6s ease-in-out;
+    background: linear-gradient(315deg,darkblue,rgb(0, 64, 255));
+    overflow: auto;
+    background-size: 50% 70%;
+    background-attachment: fixed;
+    border: 2px solid cyan;
+    color: whitesmoke;
 }
 /* Skill Cards Headings */
 .skill-box span{
@@ -254,53 +254,18 @@ body{
 }
 /* Skill Cards CSS Enhancement */
 .skill-box:hover p{
-    color: black;
+    color: whitesmoke;
     transition: all 0.6s ease-in;
 }
 .skill-box:hover{
-    box-shadow: 7px 8px 6px black;
+    box-shadow: 6px 6px 5px cyan,-6px 6px 5px cyan,6px -6px 5px cyan,-6px -6px 5px cyan;
+    text-shadow: 2px 2px 2px black, -2px 2px 3px black;
 }
 .skill-box:hover span{
     position: relative;
     top: 0px;
 }
-/* Skill box Background and Transitions*/
-#s1{
-    background: linear-gradient(30deg, rgba(78, 0, 255, 1), rgba(71, 246, 255, 1), rgba(255, 143, 198, 1), rgba(143,49,242,1));
-    overflow: auto;
-    background-size: 10% 50%;
-    background-attachment: fixed;
-}
-#s2{
-    background: linear-gradient(30deg, rgba(255, 33, 0, 1), rgba(0, 159, 255, 1), rgba(255, 0, 123, 1), rgba(0,4,255,1));
-    overflow: auto;
-    background-size: 10% 50%;
-    background-attachment: fixed;
-}
-#s3{
-    background: linear-gradient(30deg, rgba(216, 0, 255, 1), rgba(0, 55, 255, 1), rgba(0, 228, 255, 1), rgba(0,255,169,1));
-    overflow: auto;
-    background-size: 10% 50%;
-    background-attachment: fixed;
-}
-#s4{
-    background: linear-gradient(315deg, rgba(255, 0, 0, 1), rgba(123, 0, 255,1),rgba(0, 255, 136,1), rgba(186, 0, 255, 1) );
-    overflow: auto;
-    background-size: 50% 10%;
-    background-attachment: fixed;
-}
-#s5{
-    background: linear-gradient(315deg, rgb(255, 30, 0), rgb(179, 255, 0), rgb(0, 255, 187), rgb(255, 0, 234));
-    overflow: auto;
-    background-size: 50% 10%;
-    background-attachment: fixed;
-}
-#s6{
-    background: linear-gradient(315deg, rgba(255, 0, 100, 1), rgba(61, 0, 255, 1), rgba(0, 255, 116, 1), rgba(200,255,0,1));
-    overflow: auto;
-    background-size: 50% 10%;
-    background-attachment: fixed;
-}
+
 /* --------------------------------NEW Section--------------------------------------------- */
 /* Project Section */
 /* Projects Box CSS */
@@ -318,7 +283,7 @@ body{
     width: 45%;
     display: inline-flex;
     flex-direction: column;
-    background: linear-gradient(rgb(227, 15, 50), rgb(91, 20, 206));
+    background: linear-gradient(215deg,blue, rgb(33, 14, 161));
     padding: 0px 20px 0px;
     border: 3px solid;
     border-radius: 15px 50px 15px 50px ;
@@ -365,6 +330,7 @@ body{
 
 /* Contact Me Footer Section */
 footer article{
+    color: whitesmoke;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -395,7 +361,7 @@ footer .footer-form{
 }
 /* Form Submit Button */
 footer button {
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
     border-radius: 5px;
     padding: 5px;
     transition: all 0.3s ease-in ;
